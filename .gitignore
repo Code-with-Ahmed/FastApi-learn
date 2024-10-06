@@ -1,0 +1,45 @@
+# General .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environment folder
+myenv/
+venv/
+*.env
+
+# Ignore SQLite database
+*.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.lock
+
+# Ignore editor and IDE configuration files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Node.js modules (for React app)
+React/finance/node_modules/
+
+# Ignore build files (for React app)
+React/finance/build/
+React/finance/.cache/
+
+# Ignore Yarn/ NPM lock files if not needed (optional)
+React/finance/yarn.lock
+React/finance/package-lock.json
+
+# Ignore FastAPI migrations and cache
+migrations/
+instance/
