@@ -30,15 +30,15 @@ venv/
 *.sublime-workspace
 
 # Ignore Node.js modules (for React app)
-React/finance/node_modules/
+finance/node_modules/
 
 # Ignore build files (for React app)
-React/finance/build/
-React/finance/.cache/
+finance/build/
+finance/.cache/
 
 # Ignore Yarn/ NPM lock files if not needed (optional)
-React/finance/yarn.lock
-React/finance/package-lock.json
+finance/yarn.lock
+finance/package-lock.json
 
 # Ignore FastAPI migrations and cache
 migrations/
